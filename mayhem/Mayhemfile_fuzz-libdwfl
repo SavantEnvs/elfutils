@@ -1,0 +1,5 @@
+project: savantenvs/elfutils
+target: fuzz-libdwfl
+cmds:
+  - cmd: /mayhem/fuzz-libdwfl
+    libfuzzer: true
